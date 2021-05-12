@@ -19,8 +19,6 @@ function Banner() {
 		fetchData();
 	}, []);
 
-	console.log(movie);
-
 	// function for when movie description is too long
 	function truncate(string, n) {
 		return string?.length > n ? string.substr(0, n - 1) + "..." : string;
